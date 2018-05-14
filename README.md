@@ -96,3 +96,22 @@ W przypadku niepodania parametru -l domyślną wartością będzie 10.
 <h3>script2.rb</h3>
 
 Ten skrypt generuje diagram i zapisuje go w postaci [pliku pdf](https://github.com/zyng/zalnosql/blob/master/bin/day.pdf). Diagram ukazuje w jakie dni jest zanotowanych najwięcej incydentów.
+
+<h3>script3.rb</h3>
+Skrypt ten pokazuje 5 najczęściej występujących dzielnic.
+```
+ruby script3.rb
+```
+
+
+| Nazwa dzielnicy | ilość wystąpień |
+|:---------------:|:---------------:|
+| SOUTHERN        |       3462      |
+| MISSION         |       2778      |
+| NORTHERN        |       2254      |
+| CENTRAL         |       2233      |
+| BAYVIEW         |       1978      |
+
+
+
+
