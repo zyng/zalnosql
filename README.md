@@ -1,6 +1,6 @@
-<h2>Projekt na zaliczenie NoSQL</h2>
+<h1>Projekt na zaliczenie NoSQL</h1>
 <hr>
-<h3>Dane wykorzystane podczas projektu:</h3>
+<h2>Dane wykorzystane podczas projektu:</h2>
 [Police Department Incidents](https://data.sfgov.org/Public-Safety/-Change-Notice-Police-Department-Incidents/tmnf-yvry).
 
 Baza danych składa się z 2,21 mln wierszy i 13 kolumn. Poniżej przedstawiono kolumny:
@@ -23,7 +23,7 @@ Baza danych składa się z 2,21 mln wierszy i 13 kolumn. Poniżej przedstawiono 
 
 <hr>
 
-<h3>Opis</h3>
+<h2>Opis</h2>
 
 1. Konwersja bazy danych z csv na json
 ```
@@ -60,8 +60,9 @@ mongoimport --host carbon/localhost:27001,localhost:27002,localhost:27003 --db t
 5. W celu upewnienia się czy połączenie z bazą danych przebiegło prawidłowo. W tym celu korzystamy z polecenia rspec.
 
 <hr>
-<h3>Skrypty</h3>
+<h2>Skrypty</h2>
 
+<h3>script1.rb</h3>
 Skrypt generuje [plik html](https://github.com/zyng/zalnosql/blob/master/bin/descript_list.html), w którym tworzy się tabelka pokazująca ilość wystąpień dla poszczególnych incydentów.
 
 ```
@@ -91,3 +92,7 @@ W przypadku niepodania parametru -l domyślną wartością będzie 10.
 | TRAFFIC VIOLATION ARREST                  |       253       |
 | GRAND THEFT FROM PERSON                   |       239       |
 | RESISTING ARREST                          |       239       |
+
+<h3>script2.rb</h3>
+
+Ten skrypt generuje diagram i zapisuje go w postaci [pliku pdf](https://github.com/zyng/zalnosql/blob/master/bin/day.pdf). Diagram ukazuje w jakie dni jest zanotowanych najwięcej incydentów.
