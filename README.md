@@ -60,3 +60,35 @@ mongoimport --host carbon/localhost:27001,localhost:27002,localhost:27003 --db t
 5. W celu upewnienia się czy połączenie z bazą danych przebiegło prawidłowo. W tym celu korzystamy z polecenia rspec.
 
 <hr>
+<h3>Skrypty</h3>
+
+Skrypt generuje [plik html]()., w którym tworzy się tabelka pokazująca ilość wystąpień dla poszczególnych incydentów.
+
+```
+ruby script1.rb -l 20
+```
+W przypadku niepodania parametru -l domyślną wartością będzie 10.
+
+
+|              Nazwa incydentu              | Ilość wystąpień |
+|:-----------------------------------------:|:---------------:|
+|   DRIVERS LICENSE, SUSPENDED OR REVOKED   |       971       |
+|        GRAND THEFT FROM LOCKED AUTO       |       840       |
+|        AIDED CASE, MENTAL DISTURBED       |       721       |
+|        PETTY THEFT FROM LOCKED AUTO       |       677       |
+|             STOLEN AUTOMOBILE             |       668       |
+|               WARRANT ARREST              |       659       |
+|                  BATTERY                  |       595       |
+|               FOUND PROPERTY              |       441       |
+|           SUSPICIOUS OCCURRENCE           |       400       |
+|               LOST PROPERTY               |       368       |
+| MALICIOUS MISCHIEF, VANDALISM OF VEHICLES |       364       |
+|          INVESTIGATIVE DETENTION          |       345       |
+|          PETTY THEFT SHOPLIFTING          |       336       |
+|                FOUND PERSON               |       333       |
+|      ENROUTE TO OUTSIDE JURISDICTION      |       325       |
+|        PETTY THEFT FROM A BUILDING        |       304       |
+|            THREATS AGAINST LIFE           |       276       |
+|          TRAFFIC VIOLATION ARREST         |       253       |
+|          GRAND THEFT FROM PERSON          |       239       |
+|              RESISTING ARREST             |       239       |
