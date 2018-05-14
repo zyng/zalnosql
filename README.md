@@ -57,3 +57,6 @@ rs.initiate(rsconf)
 ```
 mongoimport --host carbon/localhost:27001,localhost:27002,localhost:27003 --db test --collection incidents --file incidents.json --drop
 ```
+5. W celu upewnienia się czy połączenie z bazą danych przebiegło prawidłowo. W tym celu korzystamy z polecenia rspec.
+
+<hr>
