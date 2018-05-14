@@ -113,6 +113,29 @@ ruby script3.rb
 | CENTRAL         |       2233      |
 | BAYVIEW         |       1978      |
 
+<h3>script4.rb</h3>
+Skrypt ten wyświetla ilość poszczególnych kategorii incydentów w danej godzinie. Domyślna godzina to 14:00. Za pomocą parametru -t można ją zmienić.
+```
+ruby script4.rb -t 13:30
 
+{"_id"=>"LARCENY/THEFT", "count"=>26}
+{"_id"=>"NON-CRIMINAL", "count"=>21}
+{"_id"=>"OTHER OFFENSES", "count"=>16}
+{"_id"=>"MISSING PERSON", "count"=>9}
+{"_id"=>"SUSPICIOUS OCC", "count"=>8}
+{"_id"=>"VEHICLE THEFT", "count"=>7}
+{"_id"=>"ASSAULT", "count"=>6}
+{"_id"=>"FRAUD", "count"=>5}
+{"_id"=>"VANDALISM", "count"=>4}
+{"_id"=>"WARRANTS", "count"=>4}
+{"_id"=>"DRUG/NARCOTIC", "count"=>3}
+{"_id"=>"ROBBERY", "count"=>3}
+{"_id"=>"BURGLARY", "count"=>2}
+{"_id"=>"EMBEZZLEMENT", "count"=>2}
+{"_id"=>"TRESPASS", "count"=>1}
+{"_id"=>"SECONDARY CODES", "count"=>1}
+{"_id"=>"DRUNKENNESS", "count"=>1}
+{"_id"=>"KIDNAPPING", "count"=>1}
+```
 
 
