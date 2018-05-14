@@ -98,7 +98,8 @@ W przypadku niepodania parametru -l domyślną wartością będzie 10.
 Ten skrypt generuje diagram i zapisuje go w postaci [pliku pdf](https://github.com/zyng/zalnosql/blob/master/bin/day.pdf). Diagram ukazuje w jakie dni jest zanotowanych najwięcej incydentów.
 
 <h3>script3.rb</h3>
-Skrypt ten pokazuje 5 najczęściej występujących dzielnic.
+Skrypt ten pokazuje 5 najczęściej występujących [dzielnic](https://github.com/zyng/zalnosql/blob/master/bin/pddistrict_list.html).
+
 ```
 ruby script3.rb
 ```
