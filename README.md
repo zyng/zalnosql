@@ -29,7 +29,7 @@ Baza danych składa się z 2,21 mln wierszy i 13 kolumn. Poniżej przedstawiono 
 ```
 $ csvtojson source.csv > converted.json
 ```
-2. Redukcja wierszy bazy danych do 20 000 za pomocą komendy split. Baza danych po redukcji znadjuje się w folderze [data]().
+2. Redukcja wierszy bazy danych do 20 000 za pomocą komendy split. Baza danych po redukcji znadjuje się w folderze [data](https://github.com/zyng/zalnosql/tree/master/data).
 3. ReplicaSet
 ```
 mkdir carbon
@@ -53,7 +53,7 @@ rsconf = {
 
 rs.initiate(rsconf)
 ```
-4. Zaimportowanie do ReplicaSet [bazy]().
+4. Zaimportowanie do ReplicaSet [bazy](https://github.com/zyng/zalnosql/tree/master/data).
 ```
 mongoimport --host carbon/localhost:27001,localhost:27002,localhost:27003 --db test --collection incidents --file incidents.json --drop
 ```
@@ -62,7 +62,7 @@ mongoimport --host carbon/localhost:27001,localhost:27002,localhost:27003 --db t
 <hr>
 <h3>Skrypty</h3>
 
-Skrypt generuje [plik html](), w którym tworzy się tabelka pokazująca ilość wystąpień dla poszczególnych incydentów.
+Skrypt generuje [plik html](https://github.com/zyng/zalnosql/blob/master/bin/descript_list.html), w którym tworzy się tabelka pokazująca ilość wystąpień dla poszczególnych incydentów.
 
 ```
 ruby script1.rb -l 20
