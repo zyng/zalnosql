@@ -1,1 +1,2 @@
-# zaliczenie nosql
+Projekt na zaliczenie NoSQL
+<hr>
