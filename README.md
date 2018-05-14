@@ -60,6 +60,15 @@ mongoimport --host carbon/localhost:27001,localhost:27002,localhost:27003 --db t
 5. W celu upewnienia się czy połączenie z bazą danych przebiegło prawidłowo. W tym celu korzystamy z polecenia rspec.
 
 <hr>
+
+<h2>Pierwsze wywołanie</h2>
+
+```
+$ bundle install
+
+$ rspec
+```
+
 <h2>Skrypty</h2>
 
 <h3>script1.rb</h3>
@@ -138,5 +147,7 @@ ruby script4.rb -t 13:30
 {"_id"=>"DRUNKENNESS", "count"=>1}
 {"_id"=>"KIDNAPPING", "count"=>1}
 ```
+<h3>insert_one.rb</h3>
 
+Skrypt pozwala na dodanie nowego wiersza do bazy incydentów.
 
