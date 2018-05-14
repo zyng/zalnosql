@@ -62,7 +62,7 @@ mongoimport --host carbon/localhost:27001,localhost:27002,localhost:27003 --db t
 <hr>
 <h3>Skrypty</h3>
 
-Skrypt generuje [plik html]()., w którym tworzy się tabelka pokazująca ilość wystąpień dla poszczególnych incydentów.
+Skrypt generuje [plik html](), w którym tworzy się tabelka pokazująca ilość wystąpień dla poszczególnych incydentów.
 
 ```
 ruby script1.rb -l 20
