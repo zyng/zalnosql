@@ -115,6 +115,7 @@ ruby script3.rb
 
 <h3>script4.rb</h3>
 Skrypt ten wyświetla ilość poszczególnych kategorii incydentów w danej godzinie. Domyślna godzina to 14:00. Za pomocą parametru -t można ją zmienić.
+
 ```
 ruby script4.rb -t 13:30
 
