@@ -1,6 +1,7 @@
 <h1>Projekt na zaliczenie NoSQL</h1>
 <hr>
 <h2>Dane wykorzystane podczas projektu:</h2>
+
 [Police Department Incidents](https://data.sfgov.org/Public-Safety/-Change-Notice-Police-Department-Incidents/tmnf-yvry).
 
 Baza danych składa się z 2,21 mln wierszy i 13 kolumn. Poniżej przedstawiono kolumny:
